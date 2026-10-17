@@ -9,7 +9,7 @@
 //#include "esphome/core/preferences.h"
 #include <vector>
 #include <Crypto.h>
-
+#include <map>
 
 #ifdef USE_ESP32
 #include <deque>
