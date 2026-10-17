@@ -212,7 +212,7 @@ void DSCkeybushome::setup()
       register_service(&DSCkeybushome::set_zone_fault, "set_zone_fault", {"zone", "fault"});
       register_service(&DSCkeybushome::set_default_partition, "set_default_partition", {"partition"});
       #else
-      #error "Missing "custom_services: true" line in the api: section"
+//      #error "Missing "custom_services: true" line in the api: section"
       #endif
 #endif
 
